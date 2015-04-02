@@ -1,4 +1,6 @@
 import Control.Monad
 
+
 main = do
-        return "hello world"
+        y <- return "kill"
+        return "hello world" ++ y
